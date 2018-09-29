@@ -22,6 +22,9 @@ public static void main(String[] args) {
 	System.out.println("Imprimindo...");
 	agenda.imprimirAgenda();
 	
+	System.out.print("Imprimindo a posição \n");
+	System.out.println(agenda.buscaPessoa("Juan"));
+		
 	System.out.println("Removendo...");
 	agenda.removePessoa("Marcelo");
 	
